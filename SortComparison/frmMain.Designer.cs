@@ -109,8 +109,7 @@ namespace SortComparison
             this.cboAlg2.Size = new System.Drawing.Size(200, 21);
             this.cboAlg2.TabIndex = 3;
             this.cboAlg2.SelectedIndex = 12;
-            this.cboAlg2.BackColor = System.Drawing.Color.MediumPurple;
-            
+            this.cboAlg2.BackColor = System.Drawing.Color.MediumPurple;            
             // 
             // cmdShuffle
             // 
