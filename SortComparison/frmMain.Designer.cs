@@ -78,6 +78,7 @@
             this.cboAlg1.Size = new System.Drawing.Size(200, 21);
             this.cboAlg1.TabIndex = 2;            
             this.cboAlg1.SelectedIndex = 2;
+            this.cboAlg1.BackColor = System.Drawing.Color.LightPink;
             // 
             // cboAlg2
             // 
