@@ -24,6 +24,7 @@ namespace SortComparison
 
         public frmMain()
         {
+            InitializeOutputFolder();
             InitializeComponent();
         }
 
