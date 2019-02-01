@@ -113,6 +113,8 @@
             this.cmdShuffle.TabIndex = 4;
             this.cmdShuffle.Text = "Shuffle";
             this.cmdShuffle.UseVisualStyleBackColor = true;
+            this.cmdShuffle.BackColor = System.Drawing.Color.Indigo;
+            this.cmdShuffle.ForeColor = System.Drawing.Color.White;
             this.cmdShuffle.Click += new System.EventHandler(this.cmdShuffle_Click);
             // 
             // cmdSort
