@@ -1,4 +1,8 @@
-﻿namespace SortComparison
+﻿using System.IO;
+using System;
+using System.Windows.Forms;
+using System.Drawing;
+namespace SortComparison
 {
     partial class frmMain
     {
@@ -105,6 +109,8 @@
             this.cboAlg2.Size = new System.Drawing.Size(200, 21);
             this.cboAlg2.TabIndex = 3;
             this.cboAlg2.SelectedIndex = 12;
+            this.cboAlg2.BackColor = System.Drawing.Color.MediumPurple;
+            
             // 
             // cmdShuffle
             // 
@@ -236,7 +242,7 @@
             this.txtOutputFolder.Name = "txtOutputFolder";
             this.txtOutputFolder.Size = new System.Drawing.Size(215, 20);
             this.txtOutputFolder.TabIndex = 16;
-            this.txtOutputFolder.Text = "E:\\Sort";
+            this.txtOutputFolder.Text = System.AppDomain.CurrentDomain.BaseDirectory.ToString();
             // 
             // label4
             // 
@@ -277,7 +283,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.tbSpeed)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+            this.PerformClick();
+        }
+        private void InitializeOutputFolder()
+        {
+            string root = @"C:\Users\S533490\Documents\44663\SortComparison_src\SortComparison_src\output";
+            if (Directory.Exists(root))
+            {
+                Directory.Delete(root, true);
+            }
+            if (!Directory.Exists(root))
+            {
+                Directory.CreateDirectory(root);
+            }
 
+        }
+        private void PerformClick()
+        {
+
+            if (this.CanSelect)
+            {
+                this.OnClick(EventArgs.Empty);
+            }
         }
 
         #endregion
