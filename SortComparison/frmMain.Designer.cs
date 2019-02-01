@@ -123,6 +123,9 @@
             this.cmdSort.TabIndex = 5;
             this.cmdSort.Text = "Sort";
             this.cmdSort.UseVisualStyleBackColor = true;
+            this.cmdSort.ForeColor = System.Drawing.Color.Red;
+            this.cmdSort.BackColor = System.Drawing.Color.DarkBlue;
+
             this.cmdSort.Click += new System.EventHandler(this.cmdSort_Click);
             // 
             // pnlSort1
