@@ -9,7 +9,7 @@ Our Team Members:
 3. Harika Naidu
 
 Sample Output:
-![capture](https://user-images.githubusercontent.com/42948603/52236270-fbb4b500-288b-11e9-93ec-9e01dadf8fd8.PNG)
 
+Here in the sample output the Bucket sort is faster than the quick sort.
 
-
+![capture](https://user-images.githubusercontent.com/42948603/52236392-564e1100-288c-11e9-8e19-1b98a294d85b.PNG)
