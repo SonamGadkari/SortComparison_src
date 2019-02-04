@@ -83,6 +83,7 @@ namespace SortComparison
             this.cboAlg1.TabIndex = 2;            
             this.cboAlg1.SelectedIndex = 3;
             this.cboAlg1.BackColor = System.Drawing.Color.LightPink;
+            this.cboAlg1.ForeColor = System.Drawing.Color.Khaki;
             // 
             // cboAlg2
             // 
