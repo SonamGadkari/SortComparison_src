@@ -13,7 +13,7 @@ Our Team Members:
 
 Sample Output:
 
-Here in the sample output running in my laptop where it shows that Bucket sort is faster than the quick sort.
+Here in the sample output running in my laptop where it shows that Cycle Sort is faster than the Bucket Sort.
 
 ![screenshot 387](https://user-images.githubusercontent.com/42948603/52309474-db592900-2965-11e9-93e4-a04fdc73669e.png)
 
