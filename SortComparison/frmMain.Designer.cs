@@ -178,7 +178,7 @@ namespace SortComparison
             this.lblSamples.Name = "lblSamples";
             this.lblSamples.Size = new System.Drawing.Size(115, 13);
             this.lblSamples.TabIndex = 9;
-            this.lblSamples.Text = "Number of samples: 20";
+            this.lblSamples.Text = "Number of samples: 600";
             // 
             // label1
             // 
@@ -244,7 +244,8 @@ namespace SortComparison
             this.txtOutputFolder.Name = "txtOutputFolder";
             this.txtOutputFolder.Size = new System.Drawing.Size(215, 20);
             this.txtOutputFolder.TabIndex = 16;
-            this.txtOutputFolder.Text = System.AppDomain.CurrentDomain.BaseDirectory.ToString();
+            this.txtOutputFolder.Text = AppDomain.CurrentDomain.BaseDirectory.ToString();
+            //System.AppDomain.CurrentDomain.BaseDirectory.ToString();
             // 
             // label4
             // 
@@ -287,19 +288,8 @@ namespace SortComparison
             this.PerformLayout();
             this.PerformClick();
         }
-        private void InitializeOutputFolder()
-        {
-            string root = @"C:\Users\S533490\Documents\44663\SortComparison_src\SortComparison_src\output";
-            if (Directory.Exists(root))
-            {
-                Directory.Delete(root, true);
-            }
-            if (!Directory.Exists(root))
-            {
-                Directory.CreateDirectory(root);
-            }
 
-        }
+       
         private void PerformClick()
         {
 
