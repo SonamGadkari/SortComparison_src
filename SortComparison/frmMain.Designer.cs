@@ -260,6 +260,7 @@ namespace SortComparison
             this.label4.Size = new System.Drawing.Size(71, 13);
             this.label4.TabIndex = 15;
             this.label4.Text = "Output folder:";
+            this.label4.Font = new Font("Tahoma", 12, FontStyle.Italic);
             // 
             // frmMain
             // 
