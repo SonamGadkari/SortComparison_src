@@ -221,6 +221,7 @@ namespace SortComparison
             this.label3.Size = new System.Drawing.Size(27, 13);
             this.label3.TabIndex = 13;
             this.label3.Text = "Max";
+            this.label3.Font = new Font("Tahoma", 16, FontStyle.Underline);
             // 
             // chkAnimation
             // 
