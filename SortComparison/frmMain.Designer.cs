@@ -211,6 +211,7 @@ namespace SortComparison
             this.label2.Size = new System.Drawing.Size(24, 13);
             this.label2.TabIndex = 12;
             this.label2.Text = "Min";
+            this.label2.Font = new Font("Tahoma", 16, FontStyle.Strikeout);
             // 
             // label3
             // 
