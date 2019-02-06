@@ -179,6 +179,8 @@ namespace SortComparison
             this.lblSamples.Size = new System.Drawing.Size(115, 13);
             this.lblSamples.TabIndex = 9;
             this.lblSamples.Text = "Number of samples: 600";
+            this.lblSamples.Font = new Font("Tahoma", 10, FontStyle.Italic);
+
             // 
             // label1
             // 
