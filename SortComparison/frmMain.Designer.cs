@@ -190,6 +190,7 @@ namespace SortComparison
             this.label1.Size = new System.Drawing.Size(75, 13);
             this.label1.TabIndex = 10;
             this.label1.Text = "Sorting speed:";
+            this.label1.Font = new Font("Tahoma", 11, FontStyle.Bold);
             // 
             // tbSpeed
             // 
