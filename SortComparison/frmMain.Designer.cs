@@ -84,7 +84,7 @@ namespace SortComparison
             this.cboAlg1.SelectedIndex = 3;
             this.cboAlg1.BackColor = System.Drawing.Color.LightPink;
             this.cboAlg1.ForeColor = System.Drawing.Color.Green;
-            this.cboAlg1.Font = new Font("Tahoma", 12, FontStyle.Bold);
+            this.cboAlg1.Font = new Font("Tahoma", 12, FontStyle.Italic);
             // 
             // cboAlg2
             // 
