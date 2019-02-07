@@ -232,6 +232,7 @@ namespace SortComparison
             this.chkAnimation.TabIndex = 14;
             this.chkAnimation.Text = "Create Animation";
             this.chkAnimation.UseVisualStyleBackColor = true;
+            this.chkAnimation.Font = new Font("Tahoma", 7, FontStyle.Bold);
             // 
             // btnSelectFolder
             // 
